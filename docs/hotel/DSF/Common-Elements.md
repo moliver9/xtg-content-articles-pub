@@ -65,7 +65,7 @@ The response object contains the status of the request and any possible errors a
 | filterAuditData/registerTransactions | 1          | Boolean  | Returns all the transactions (XMLs) exchanged with the supplier.|
 | optionsQuota                         | 0..1       | Integer  | Sets the max number of options by MealPlan. |
 | ContinuationToken                    | 0..1       | String   | Internal Token to identify the next set of HotelList or RoomList. |
-| @expectedRange                       | 0..1       | Integer  |  	Number of hotels expected in HotelList call. |
+| @expectedRange                       | 0..1       | Integer  | Number of hotels expected in HotelList call. |
 | Configuration                        | 1          |          | The info required to access the supplier's system. |
 | Configuration/User                   | 0..1       | String   | User code to connect to supplier. |
 | Configuration/Password               | 0..1       | String   | Password for the connection. |
